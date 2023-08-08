@@ -1,0 +1,16 @@
+body{
+    background-color: #ffe2e1;
+}
+
+.informacion{
+    text-align: center;
+}
+
+.tamanoImagen {
+    width: 30%  ;
+    border-radius: 5%;
+}
+
+.selectedAlt{
+    background: #c000ff6b;
+}

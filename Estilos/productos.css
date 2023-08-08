@@ -1,0 +1,31 @@
+
+li {
+    margin-bottom: 100%;
+    font-size: 1.5rem;
+    color: #7638b0;  
+}
+
+.productos {
+    width: 10%;
+ 
+}
+
+.tablaProductos {
+    text-align: center;
+    margin-left: 10%;
+    width: 70%;
+    margin-top: 3%;
+}
+
+.tamanoImagen {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.contenido {
+    padding: 3%;
+    padding-bottom: 1%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}

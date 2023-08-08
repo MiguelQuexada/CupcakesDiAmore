@@ -1,0 +1,69 @@
+.menu {
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    font-size: 1.5rem;
+    border-bottom: 5px double #000000;
+}
+
+.textMenu {
+    width: 100%;
+    padding-top: 1.5%;
+}
+
+.titleMenu {
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #8b3dd4;    
+}
+
+body {
+    background-color: #ffe7e6;
+}
+
+.selected {
+    background: #aa4fff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 2.2%;
+    color: white;
+}
+
+a:hover {
+    background-color: #aa4fff53;
+    border-radius: 10px;
+}
+
+.logo-pagina {
+    width: 4.5%;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer {
+    text-align: center;
+    display: block;
+}
+
+/* whatsapp */
+.fa-whatsapp {
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #25D366;
+    color: white;
+}
+
+/* instagram */
+.fa-instagram {
+    padding: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: #5851DB;
+    color: white;
+}

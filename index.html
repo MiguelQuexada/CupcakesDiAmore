@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="Estilos/index.css">
+    <link rel="stylesheet" href="Estilos/menu.css">
+    <link rel="shortcut icon" href="Imagenes/Logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="menu">
+        <img src="Imagenes/Logo.jpg" class="logo-pagina">
+        <nav class="textMenu">
+            <a class="titleMenu selected" href="index.html">Inicio</a>
+            <a class="titleMenu" href="productos.html">Productos</a>
+            <a class="titleMenu" href="armaTuCombo.html">Arma Tu Combo</a>
+            <a class="titleMenu" href="carrito.html">Carrito</a>
+        </nav>
+    </div>
+
+    <!-- Botones -->
+    <div class="botones">
+
+        <button class="open-button" onclick="openForm1()">Registrarse</button>
+
+        <div class="form-popup1" id="registro">
+            <form action="/action_page.php" class="form-container">
+                <h1>Registrarse</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Email" name="email" required>
+
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" placeholder="Ingrese contraseña" name="psw" required>
+
+                <button type="submit" class="btn">Registrarse</button>
+                <button type="button" class="btn cancel" onclick="closeForm1()">Cerrar</button>
+            </form>
+        </div>
+
+        <button class="open-button" onclick="openForm()">Ingresar</button>
+
+        <div class="form-popup" id="ingreso">
+            <form action="/action_page.php" class="form-container">
+                <h1>Ingresar</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Email" name="email" required>
+
+                <label for="psw"><b>Contraseña</b></label>
+                <input type="password" placeholder="Ingrese contraseña" name="psw" required>
+
+                <button type="submit" class="btn">Ingresar</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Cerrar</button>
+            </form>
+        </div>
+
+
+    </div>
+
+    <!-- Carrusel -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img class="image" src="Imagenes/Cupcakes.jpg">
+            <div class="text">Cupcakes</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="image" src="Imagenes/Productos/kits.jpeg">
+            <div class="text">Kits</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img class="image" src="Imagenes/Productos/jeringas.jpeg">
+            <div class="text">Jeringas de Brigadeiro</div>
+        </div>
+
+    </div>
+    <br>
+    <script src="js/index.js"></script>
+
+
+    <div class="footer">
+        <a href="https://wa.me/573192889885" target="_blank" class="fa fa-whatsapp"></a>
+        <a href="https://www.instagram.com/cupcakesdiamore/" target="_blank" class="fa fa-instagram"></a>
+        <p>Author: Miguel Quexada & <br>Santiago Ramirez</p>
+    </div>
+</body>
+
+</html>
